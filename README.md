@@ -10,7 +10,12 @@ Python scripts basically transfer the "widgets" information between compound wid
 **How to use the toolkit [sample project]:**
 1. Open provided sample project from github
 
-2. Follow instructions below
+2. Follow instructions on following video:
+   [How To use scripts video](https://github.com/mustonenm/mvCoWidgetsTools/blob/main/Logical/Scripts/CompoundWidgetsToolkit/HowToUseScripts.mp4)
+   or
+   watch from the project:
+   ![image](https://github.com/user-attachments/assets/bffdfc9b-ebd4-41ff-8176-25e71cda919b)
+
 
 **How to use the toolkit [scripts]:**
 
