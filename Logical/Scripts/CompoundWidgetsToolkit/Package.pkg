@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Read widgets data from library and create mappView page for editing widgets graphically">ReadWidgetsToVisu.py</Object>
+    <Object Type="File" Description="Save modifications to widgets in Hmi and store the modifications to WidgetsLibrary">SaveWidgetsToLibrary.py</Object>
+    <Object Type="File" Description="Paths for the scripts">Settings.json</Object>
+  </Objects>
+</Package>

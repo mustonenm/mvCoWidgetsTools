@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="AdditionalStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	
+	<Style id="LoginBackground" xsi:type="widgets.brease.Rectangle" borderWidth="2px" cornerRadius="10px" backColor="rgba(81,150,175,0.4)" lineColor="#396D80" borderStyle="solid" />
+
+	<Style id="IndicateState" xsi:type="widgets.brease.Button" fontSize="16px" bold="true" textColor="#474747" mouseDownTextColor="#FFFFFF" cornerRadius="8px" borderWidth="2px" borderColor="rgba(255, 0, 0, 0.5)" mouseDownBorderWidth="0px 0px 0px 0px" backGroundGradient="linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)" mouseDownBackGroundGradient="linear-gradient(to bottom, #4A4A4A 0%,#7C7C7C 100%) " disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%)" shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" mouseDownShadow="2px 2px 8px 0px rgba(62, 79, 92, 0.75)" />
+
+	<Style id="IndicateState" xsi:type="widgets.brease.NumericOutput" borderWidth="2px" borderColor="#FF0000" textColor="#FFFFFF" fontSize="32px" backGroundGradient="linear-gradient(to bottom, rgba(243,197,189,1) 0%,rgba(232,108,87,1) 50%,rgba(234,40,3,1) 51%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 100%)" bold="true" />
+
+	<Style id="transparent" xsi:type="widgets.brease.LoginButton" backColor="transparent" borderWidth="0px" mouseDownBackColor="transparent" mouseDownBorderWidth="0px" fontSize="16px" bold="true" textColor="#474747" />
+
+	<Style id="transparent" xsi:type="widgets.brease.LogoutButton" 
+		backColor="transparent" 
+		borderWidth="0px" 
+		mouseDownBackColor="transparent" 
+		mouseDownBorderWidth="0px" 
+		fontSize="16px" bold="true" 
+		textColor="#474747" />
+	
+	<!--<Style id="FavoriteWatch" xsi:type="widgets.brease.Label"
+		fontSize="14px"
+		textColor="#474747"
+		backColor="#ff8500"
+		borderStyle="none"
+		padding="5px"
+	/>-->
+	
+	<!--<Style id="FavoriteWatch" xsi:type="widgets.brease.NumericOutput"
+		textColor="#FFFFFF"
+		borderWidth="0px"
+		fontSize="16px"
+		backColor="transparent"
+		bold="true"
+	/>-->
+	
+	<!--<Style id="FavoriteWatch" xsi:type="widgets.brease.NumericInput"
+		textColor="#000000"
+		borderWidth="1px"
+		cornerRadius="5px"
+		fontSize="16px"
+		backColor="#FFFFFF"
+		bold="true"
+	/>-->
+
+	<Style id="Menu" xsi:type="system.brease.Dialog" 
+		borderStyle="none"
+		headerBorderStyle="none"
+		backColor="transparent"
+		headerHeight="0px" />
+
+	<Style id="Menu" xsi:type="widgets.brease.Button" fontSize="16px" bold="true" textColor="#474747" mouseDownTextColor="#FF8500" cornerRadius="10px" borderWidth="1px" mouseDownBorderWidth="1px" borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" mouseDownBorderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" backGroundGradient="linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(229,229,229,1) 100%)" mouseDownBackGroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%) "  disabledBackGroundGradient="linear-gradient(135deg, #777777 0%,#bbbbbb 0%,#777777 4%,#777777 4%,#777777 86%,#eeeeee 98%)"  />	
+	<Style id="Menu" xsi:type="widgets.brease.NavigationButton" fontSize="16px" bold="true" textColor="#474747" mouseDownTextColor="#FF8500" cornerRadius="10px" borderWidth="1px" mouseDownBorderWidth="1px" borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" mouseDownBorderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" backGroundGradient="linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(229,229,229,1) 100%)" mouseDownBackGroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%) " checkedBackGroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%) " disabledBackGroundGradient="linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(229,229,229,1) 100%)" />	
+
+	
+	<Style id="NavigationButton" xsi:type="widgets.brease.Button" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#474747" 
+		mouseDownTextColor="#FF8500" 
+		cornerRadius="30px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" 
+		mouseDownBorderColor="#FFA947 #FD7B01 #FD7B01 #FFA947" 
+		backGroundGradient="linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(229,229,229,1) 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(247,247,247,1) 100%) " 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%)"  
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" 
+	mouseDownShadow="2px 2px 8px 0px rgba(62, 79, 92, 0.75)" />	
+	
+	
+	<Style id="default" xsi:type="widgets.brease.StackedBarChart" 
+		borderWidth="0px"
+		/>
+	
+	<Style id="default" xsi:type="widgets.brease.StackedBarChartItem" 
+		borderWidth="3px"
+		borderColor="transparent"
+		backColor="#003300,#006600,#009900,#00CC00,#00FF00,#33FF33,#66FF66,#99FF99,#CCFFCC,#CCFFCC,rgba(0,0,0,0)"
+	/>
+	
+	<Style id="blue1" xsi:type="widgets.brease.StackedBarChartItem" 
+		borderWidth="3px"
+		borderColor="transparent"
+		backColor="#001933,#003366,#004C99,#0066CC,#0080FF,#3399FF,#66B2FF,#99CCFF,#CCE5FF,#CCE5FF,rgba(0,0,0,0)"
+	/>
+	
+	<Style id="blue2" xsi:type="widgets.brease.StackedBarChartItem" 
+		borderWidth="3px"
+		borderColor="transparent"
+		backColor="#000033,#000066,#000099,#0000CC,#0000FF,#3333FF,#6666FF,#9999FF,#CCCCFF,#CCCCFF,rgba(0,0,0,0)"
+	/>
+	
+	<Style id="default" xsi:type="widgets.brease.HoverButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#FFFFFF" 
+		mouseDownTextColor="#FFFFFF" 
+		cornerRadius="8px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		backGroundGradient="linear-gradient(to bottom, #4A4A4A 0%,#7C7C7C 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to bottom, #FFAA4D 0%,#FF8500 100%)" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%)" 
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" 
+	mouseDownShadow="2px 2px 8px 0px rgba(255, 113, 0, 0.75)" />
+	
+	<Style id="Operand" xsi:type="widgets.brease.HoverButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#FFFFFF" 
+		mouseDownTextColor="#FFFFFF" 
+		cornerRadius="8px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		backGroundGradient="linear-gradient(to bottom, #FFAA4D 0%,#FF8500 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to bottom, #99bbff 0%,#6699ff 100%)" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%)" 
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" 
+	mouseDownShadow="2px 2px 8px 0px rgba(102, 153, 255, 0.75)" />
+	
+	
+	<!--styles for drag&drop-->
+	<Style id="permission" xsi:type="widgets.brease.FlexBoxItem" 
+		headerGradient="linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)" 
+		backColor="#9fff80" 
+		fontSize="16px" 
+		textColor="#474747" 
+		cornerRadius="8px 8px 0px 0px" 
+		borderWidth="1px" 
+		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" 
+	shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" />
+	
+	<Style id="nopermission" xsi:type="widgets.brease.FlexBoxItem" 
+		headerGradient="linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)" 
+		backColor="#ff8080" 
+		fontSize="16px" 
+		textColor="#474747" 
+		cornerRadius="8px 8px 0px 0px" 
+		borderWidth="1px" 
+		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" 
+	shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" />
+</Styles>

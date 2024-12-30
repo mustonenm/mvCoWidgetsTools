@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">1.png</Object>
+    <Object Type="File">2.png</Object>
+    <Object Type="File">3.png</Object>
+    <Object Type="File">4.png</Object>
+    <Object Type="File">5.png</Object>
+  </Objects>
+</Package>

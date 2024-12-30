@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentMainPage" height="1080" width="1920" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.widgetlibrary_0.Motor1OnOff" id="Motor1OnOff1" top="446" left="640" zIndex="0" />
+    <Widget xsi:type="widgets.widgetlibrary_0.Motor1SpeedControl" id="Motor1SpeedControl1" top="446" left="779" zIndex="1" />
+    <Widget xsi:type="widgets.widgetlibrary_0.MotorStartTest1" id="MotorStartTest11" top="446" left="920" zIndex="2" />
+  </Widgets>
+</Content>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CompoundWidget xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MotorStartTest1" width="130" height="210">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxMotorControl" top="11" left="9" width="112" height="184" zIndex="0" text="Motor 1 " cornerRadius="8px 8px 8px 8px" backColor="rgba(255, 255, 255, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Button" id="Button_MotorOn" top="5" left="4" zIndex="0" text="On"/>
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageListEngine" top="82" left="13" width="71" height="56" zIndex="1" imageList="['Engine.svg', 'EngineMove.svg']" imagePrefix="Media/ImageList/Engine/"/>
+        <Widget xsi:type="widgets.brease.Button" id="Button1" top="43" left="11" width="36" zIndex="2" text="Button1"/>
+        <Widget xsi:type="widgets.brease.Button" id="Button2" top="44" left="57" width="36" zIndex="3" text="Button2"/>
+      </Widgets>
+    </Widget>
+  </Widgets>
+	<Properties>
+  </Properties>
+  <Events>
+  </Events>
+  <Actions>
+  </Actions>
+  <EventBindings>
+  </EventBindings>
+</CompoundWidget>
